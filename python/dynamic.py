@@ -51,7 +51,8 @@ def generate_hosts() -> dict:
 
 if args.requested_host:
     # --host
-    print(json.dumps(generate_hosts().get(args.requested_host, {})))
+    # print(json.dumps(generate_hosts().get(args.requested_host, {})))
+    pass
 elif args.list_instances:
     # --list
     print(json.dumps(generate_hosts()))
