@@ -34,14 +34,16 @@ def generate_hosts() -> dict:
                         "hosts": [],
                         "vars": {
                             "groupvar_msg": "In group_odd"
-                        }
+                        },
+                        "children": [] 
                     },
                     # 偶数グループ
                     "group_even": {
                         "hosts": [],
                         "vars": {
                             "groupvar_msg": "In group_even"
-                        }
+                        },
+                        "children": [] 
                     }
     }
 
@@ -52,7 +54,7 @@ def generate_hosts() -> dict:
         host_number = i + 1
         hostname = "host{0:0=4}".format(host_number)
 
-        # 所属グループ
+        # 所属グループを連番から判断
         my_group = "group_even" if host_number % 2 == 0 else "group_odd"
 
         # グループへの所属
@@ -67,7 +69,6 @@ def generate_hosts() -> dict:
 
 if args.requested_host:
     # --host
-    # print(json.dumps(generate_hosts().get(args.requested_host, {})))
     pass
 elif args.list_instances:
     # --list
