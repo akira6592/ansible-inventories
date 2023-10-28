@@ -22,6 +22,21 @@ parser.add_argument(
 args = parser.parse_args()
 
 def generate_hosts() -> dict:
+    total: int = 1000
+    hosts: dict = {
+                    "_meta": {
+                        "hostvars": {}
+                    },
+                    "group001": {"hosts": []}
+    }
+
+    for i in range(total):
+        hosts["group001"]["hosts"].append("sv" + str(i + 1))
+
+    return hosts
+
+def generate_hosts3() -> dict:
+
     hosts: dict = {
         "_meta": {
             "hostvars": {
@@ -36,14 +51,15 @@ def generate_hosts() -> dict:
                 }
             }
         },
+        # "_meta": {"hostvars": {}},
         "group001": {
             "hosts": ["host001", "host002"],
-            "vars": {"var1": True},
+            "vars": {"group001_var1": "Hello"},
             "children": ["group002"]
         },
         "group002": {
             "hosts": ["host003"],
-            "vars": {"var2": 500}
+            "vars": {"group002_var1": "Hello"}
         }
     }
 
@@ -58,5 +74,4 @@ elif args.list_instances:
     print(json.dumps(generate_hosts()))
 else:
     raise Exception('I do not know what to do.')
-
 
