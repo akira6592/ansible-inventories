@@ -30,7 +30,6 @@ def generate_hosts() -> dict:
                 },
                 "host002": {
                     "me": "I am host002"
-                }
                 },
                 "host003": {
                     "me": "I am host003"
@@ -45,7 +44,7 @@ def generate_hosts() -> dict:
         "group002": {
             "hosts": ["host003"],
             "vars": {"var2": 500}
-        },
+        }
     }
 
     return hosts
