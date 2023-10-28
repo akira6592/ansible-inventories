@@ -21,7 +21,7 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-def generate_hosts():
+def generate_hosts() -> dict:
     hosts: dict = {
         "group001": {
             "hosts": ["host001", "host002"],
@@ -37,7 +37,8 @@ def generate_hosts():
 
 if args.requested_host:
     # --host
-    print(json.dumps(generate_hosts().get(args.requested_host, {})))
+    # print(json.dumps(generate_hosts().get(args.requested_host, {})))
+    print(json.dumps({"var_test": "myvar!!!!"}))
 elif args.list_instances:
     # --list
     print(json.dumps(generate_hosts()))
