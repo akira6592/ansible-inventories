@@ -23,6 +23,20 @@ args = parser.parse_args()
 
 def generate_hosts() -> dict:
     hosts: dict = {
+        "_meta": {
+            "hostvars": {
+                "host001": {
+                    "me" : "I am host001"
+                },
+                "host002": {
+                    "me": "I am host002"
+                }
+                },
+                "host003": {
+                    "me": "I am host003"
+                }
+            }
+        },
         "group001": {
             "hosts": ["host001", "host002"],
             "vars": {"var1": True},
@@ -33,12 +47,12 @@ def generate_hosts() -> dict:
             "vars": {"var2": 500}
         },
     }
+
     return hosts
 
 if args.requested_host:
     # --host
-    # print(json.dumps(generate_hosts().get(args.requested_host, {})))
-    print(json.dumps({"var_test": "myvar!!!!"}))
+    print(json.dumps(generate_hosts().get(args.requested_host, {})))
 elif args.list_instances:
     # --list
     print(json.dumps(generate_hosts()))
