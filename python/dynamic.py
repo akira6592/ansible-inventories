@@ -7,7 +7,6 @@ This script returns variables specific to a host if given --host <hostname> opti
 from argparse import ArgumentParser
 import json
 
-
 parser = ArgumentParser()
 parser.add_argument(
     '--list', dest='list_instances', action='store_true', default=True,
@@ -22,46 +21,47 @@ parser.add_argument(
 args = parser.parse_args()
 
 def generate_hosts() -> dict:
-    total: int = 1000
+    # 生成したいホストの台数
+    total: int = 15
+
+    # フォーマットとグループの定義
     hosts: dict = {
                     "_meta": {
                         "hostvars": {}
                     },
-                    "group001": {"hosts": []}
+                    # 奇数グループ
+                    "group_odd": {
+                        "hosts": [],
+                        "vars": {
+                            "groupvar_msg": "In group_odd"
+                        }
+                    },
+                    # 偶数グループ
+                    "group_even": {
+                        "hosts": [],
+                        "vars": {
+                            "groupvar_msg": "In group_even"
+                        }
+                    }
     }
 
+    # ホストのループ
     for i in range(total):
-        hosts["group001"]["hosts"].append("sv" + str(i + 1))
 
-    return hosts
+        # ホスト連番とホスト名
+        host_number = i + 1
+        hostname = "host{0:0=4}".format(host_number)
 
-def generate_hosts3() -> dict:
+        # 所属グループ
+        my_group = "group_even" if host_number % 2 == 0 else "group_odd"
 
-    hosts: dict = {
-        "_meta": {
-            "hostvars": {
-                "host001": {
-                    "me" : "I am host001"
-                },
-                "host002": {
-                    "me": "I am host002"
-                },
-                "host003": {
-                    "me": "I am host003"
-                }
-            }
-        },
-        # "_meta": {"hostvars": {}},
-        "group001": {
-            "hosts": ["host001", "host002"],
-            "vars": {"group001_var1": "Hello"},
-            "children": ["group002"]
-        },
-        "group002": {
-            "hosts": ["host003"],
-            "vars": {"group002_var1": "Hello"}
+        # グループへの所属
+        hosts[my_group]["hosts"].append(hostname)
+
+        # ホスト変数の定義
+        hosts["_meta"]["hostvars"][hostname] = {
+            "hostvar_msg": "I am " + hostname
         }
-    }
 
     return hosts
 
