@@ -1,0 +1,25 @@
+; 奇数グループ
+[group_odd]
+{% for i in range(total) %}
+{%   set host_number = i + 1 %}
+{%   set hostname = ("host%04d" | format(host_number)) %}
+{%   if host_number % 2 != 0 %}
+{{ hostname }} hostvar_msg="I am {{ hostname }}"
+{%   endif %}
+{% endfor %}
+
+[group_odd:vars]
+groupvar_msg="In group_odd"
+
+; 偶数グループ
+[group_even]
+{% for i in range(total) %}
+{%   set host_number = i + 1 %}
+{%   set hostname = ("host%04d" | format(host_number)) %}
+{%   if host_number % 2 == 0 %}
+{{ hostname }} hostvar_msg="I am {{ hostname }}"
+{%   endif %}
+{% endfor %}
+
+[group_even:vars]
+groupvar_msg="In group_even"

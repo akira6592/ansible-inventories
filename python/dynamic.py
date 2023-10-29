@@ -22,7 +22,7 @@ args = parser.parse_args()
 
 def generate_hosts() -> dict:
     # 生成したいホストの台数
-    total: int = 3000
+    total: int = 100
 
     # フォーマットとグループの定義
     hosts: dict = {

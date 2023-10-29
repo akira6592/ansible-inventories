@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: Generate ini inventory file 
+      ansible.builtin.template:
+        src: static.ini.j2
+        dest: out.ini
+      vars:
+        total: 100
