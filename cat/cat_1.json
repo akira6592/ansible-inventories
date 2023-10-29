@@ -1,0 +1,2021 @@
+{
+    "_meta": {
+        "hostvars": {
+            "host0001": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0001"
+            },
+            "host0002": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0002"
+            },
+            "host0003": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0003"
+            },
+            "host0004": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0004"
+            },
+            "host0005": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0005"
+            },
+            "host0006": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0006"
+            },
+            "host0007": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0007"
+            },
+            "host0008": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0008"
+            },
+            "host0009": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0009"
+            },
+            "host0010": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0010"
+            },
+            "host0011": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0011"
+            },
+            "host0012": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0012"
+            },
+            "host0013": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0013"
+            },
+            "host0014": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0014"
+            },
+            "host0015": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0015"
+            },
+            "host0016": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0016"
+            },
+            "host0017": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0017"
+            },
+            "host0018": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0018"
+            },
+            "host0019": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0019"
+            },
+            "host0020": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0020"
+            },
+            "host0021": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0021"
+            },
+            "host0022": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0022"
+            },
+            "host0023": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0023"
+            },
+            "host0024": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0024"
+            },
+            "host0025": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0025"
+            },
+            "host0026": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0026"
+            },
+            "host0027": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0027"
+            },
+            "host0028": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0028"
+            },
+            "host0029": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0029"
+            },
+            "host0030": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0030"
+            },
+            "host0031": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0031"
+            },
+            "host0032": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0032"
+            },
+            "host0033": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0033"
+            },
+            "host0034": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0034"
+            },
+            "host0035": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0035"
+            },
+            "host0036": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0036"
+            },
+            "host0037": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0037"
+            },
+            "host0038": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0038"
+            },
+            "host0039": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0039"
+            },
+            "host0040": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0040"
+            },
+            "host0041": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0041"
+            },
+            "host0042": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0042"
+            },
+            "host0043": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0043"
+            },
+            "host0044": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0044"
+            },
+            "host0045": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0045"
+            },
+            "host0046": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0046"
+            },
+            "host0047": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0047"
+            },
+            "host0048": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0048"
+            },
+            "host0049": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0049"
+            },
+            "host0050": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0050"
+            },
+            "host0051": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0051"
+            },
+            "host0052": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0052"
+            },
+            "host0053": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0053"
+            },
+            "host0054": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0054"
+            },
+            "host0055": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0055"
+            },
+            "host0056": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0056"
+            },
+            "host0057": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0057"
+            },
+            "host0058": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0058"
+            },
+            "host0059": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0059"
+            },
+            "host0060": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0060"
+            },
+            "host0061": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0061"
+            },
+            "host0062": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0062"
+            },
+            "host0063": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0063"
+            },
+            "host0064": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0064"
+            },
+            "host0065": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0065"
+            },
+            "host0066": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0066"
+            },
+            "host0067": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0067"
+            },
+            "host0068": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0068"
+            },
+            "host0069": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0069"
+            },
+            "host0070": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0070"
+            },
+            "host0071": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0071"
+            },
+            "host0072": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0072"
+            },
+            "host0073": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0073"
+            },
+            "host0074": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0074"
+            },
+            "host0075": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0075"
+            },
+            "host0076": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0076"
+            },
+            "host0077": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0077"
+            },
+            "host0078": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0078"
+            },
+            "host0079": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0079"
+            },
+            "host0080": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0080"
+            },
+            "host0081": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0081"
+            },
+            "host0082": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0082"
+            },
+            "host0083": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0083"
+            },
+            "host0084": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0084"
+            },
+            "host0085": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0085"
+            },
+            "host0086": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0086"
+            },
+            "host0087": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0087"
+            },
+            "host0088": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0088"
+            },
+            "host0089": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0089"
+            },
+            "host0090": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0090"
+            },
+            "host0091": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0091"
+            },
+            "host0092": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0092"
+            },
+            "host0093": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0093"
+            },
+            "host0094": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0094"
+            },
+            "host0095": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0095"
+            },
+            "host0096": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0096"
+            },
+            "host0097": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0097"
+            },
+            "host0098": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0098"
+            },
+            "host0099": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0099"
+            },
+            "host0100": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0100"
+            },
+            "host0101": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0101"
+            },
+            "host0102": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0102"
+            },
+            "host0103": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0103"
+            },
+            "host0104": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0104"
+            },
+            "host0105": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0105"
+            },
+            "host0106": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0106"
+            },
+            "host0107": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0107"
+            },
+            "host0108": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0108"
+            },
+            "host0109": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0109"
+            },
+            "host0110": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0110"
+            },
+            "host0111": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0111"
+            },
+            "host0112": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0112"
+            },
+            "host0113": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0113"
+            },
+            "host0114": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0114"
+            },
+            "host0115": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0115"
+            },
+            "host0116": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0116"
+            },
+            "host0117": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0117"
+            },
+            "host0118": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0118"
+            },
+            "host0119": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0119"
+            },
+            "host0120": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0120"
+            },
+            "host0121": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0121"
+            },
+            "host0122": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0122"
+            },
+            "host0123": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0123"
+            },
+            "host0124": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0124"
+            },
+            "host0125": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0125"
+            },
+            "host0126": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0126"
+            },
+            "host0127": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0127"
+            },
+            "host0128": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0128"
+            },
+            "host0129": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0129"
+            },
+            "host0130": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0130"
+            },
+            "host0131": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0131"
+            },
+            "host0132": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0132"
+            },
+            "host0133": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0133"
+            },
+            "host0134": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0134"
+            },
+            "host0135": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0135"
+            },
+            "host0136": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0136"
+            },
+            "host0137": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0137"
+            },
+            "host0138": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0138"
+            },
+            "host0139": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0139"
+            },
+            "host0140": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0140"
+            },
+            "host0141": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0141"
+            },
+            "host0142": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0142"
+            },
+            "host0143": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0143"
+            },
+            "host0144": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0144"
+            },
+            "host0145": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0145"
+            },
+            "host0146": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0146"
+            },
+            "host0147": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0147"
+            },
+            "host0148": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0148"
+            },
+            "host0149": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0149"
+            },
+            "host0150": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0150"
+            },
+            "host0151": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0151"
+            },
+            "host0152": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0152"
+            },
+            "host0153": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0153"
+            },
+            "host0154": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0154"
+            },
+            "host0155": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0155"
+            },
+            "host0156": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0156"
+            },
+            "host0157": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0157"
+            },
+            "host0158": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0158"
+            },
+            "host0159": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0159"
+            },
+            "host0160": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0160"
+            },
+            "host0161": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0161"
+            },
+            "host0162": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0162"
+            },
+            "host0163": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0163"
+            },
+            "host0164": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0164"
+            },
+            "host0165": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0165"
+            },
+            "host0166": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0166"
+            },
+            "host0167": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0167"
+            },
+            "host0168": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0168"
+            },
+            "host0169": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0169"
+            },
+            "host0170": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0170"
+            },
+            "host0171": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0171"
+            },
+            "host0172": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0172"
+            },
+            "host0173": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0173"
+            },
+            "host0174": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0174"
+            },
+            "host0175": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0175"
+            },
+            "host0176": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0176"
+            },
+            "host0177": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0177"
+            },
+            "host0178": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0178"
+            },
+            "host0179": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0179"
+            },
+            "host0180": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0180"
+            },
+            "host0181": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0181"
+            },
+            "host0182": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0182"
+            },
+            "host0183": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0183"
+            },
+            "host0184": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0184"
+            },
+            "host0185": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0185"
+            },
+            "host0186": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0186"
+            },
+            "host0187": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0187"
+            },
+            "host0188": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0188"
+            },
+            "host0189": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0189"
+            },
+            "host0190": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0190"
+            },
+            "host0191": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0191"
+            },
+            "host0192": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0192"
+            },
+            "host0193": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0193"
+            },
+            "host0194": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0194"
+            },
+            "host0195": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0195"
+            },
+            "host0196": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0196"
+            },
+            "host0197": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0197"
+            },
+            "host0198": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0198"
+            },
+            "host0199": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0199"
+            },
+            "host0200": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0200"
+            },
+            "host0201": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0201"
+            },
+            "host0202": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0202"
+            },
+            "host0203": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0203"
+            },
+            "host0204": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0204"
+            },
+            "host0205": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0205"
+            },
+            "host0206": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0206"
+            },
+            "host0207": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0207"
+            },
+            "host0208": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0208"
+            },
+            "host0209": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0209"
+            },
+            "host0210": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0210"
+            },
+            "host0211": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0211"
+            },
+            "host0212": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0212"
+            },
+            "host0213": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0213"
+            },
+            "host0214": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0214"
+            },
+            "host0215": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0215"
+            },
+            "host0216": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0216"
+            },
+            "host0217": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0217"
+            },
+            "host0218": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0218"
+            },
+            "host0219": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0219"
+            },
+            "host0220": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0220"
+            },
+            "host0221": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0221"
+            },
+            "host0222": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0222"
+            },
+            "host0223": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0223"
+            },
+            "host0224": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0224"
+            },
+            "host0225": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0225"
+            },
+            "host0226": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0226"
+            },
+            "host0227": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0227"
+            },
+            "host0228": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0228"
+            },
+            "host0229": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0229"
+            },
+            "host0230": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0230"
+            },
+            "host0231": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0231"
+            },
+            "host0232": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0232"
+            },
+            "host0233": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0233"
+            },
+            "host0234": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0234"
+            },
+            "host0235": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0235"
+            },
+            "host0236": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0236"
+            },
+            "host0237": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0237"
+            },
+            "host0238": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0238"
+            },
+            "host0239": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0239"
+            },
+            "host0240": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0240"
+            },
+            "host0241": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0241"
+            },
+            "host0242": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0242"
+            },
+            "host0243": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0243"
+            },
+            "host0244": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0244"
+            },
+            "host0245": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0245"
+            },
+            "host0246": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0246"
+            },
+            "host0247": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0247"
+            },
+            "host0248": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0248"
+            },
+            "host0249": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0249"
+            },
+            "host0250": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0250"
+            },
+            "host0251": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0251"
+            },
+            "host0252": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0252"
+            },
+            "host0253": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0253"
+            },
+            "host0254": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0254"
+            },
+            "host0255": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0255"
+            },
+            "host0256": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0256"
+            },
+            "host0257": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0257"
+            },
+            "host0258": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0258"
+            },
+            "host0259": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0259"
+            },
+            "host0260": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0260"
+            },
+            "host0261": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0261"
+            },
+            "host0262": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0262"
+            },
+            "host0263": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0263"
+            },
+            "host0264": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0264"
+            },
+            "host0265": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0265"
+            },
+            "host0266": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0266"
+            },
+            "host0267": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0267"
+            },
+            "host0268": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0268"
+            },
+            "host0269": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0269"
+            },
+            "host0270": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0270"
+            },
+            "host0271": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0271"
+            },
+            "host0272": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0272"
+            },
+            "host0273": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0273"
+            },
+            "host0274": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0274"
+            },
+            "host0275": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0275"
+            },
+            "host0276": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0276"
+            },
+            "host0277": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0277"
+            },
+            "host0278": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0278"
+            },
+            "host0279": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0279"
+            },
+            "host0280": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0280"
+            },
+            "host0281": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0281"
+            },
+            "host0282": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0282"
+            },
+            "host0283": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0283"
+            },
+            "host0284": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0284"
+            },
+            "host0285": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0285"
+            },
+            "host0286": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0286"
+            },
+            "host0287": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0287"
+            },
+            "host0288": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0288"
+            },
+            "host0289": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0289"
+            },
+            "host0290": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0290"
+            },
+            "host0291": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0291"
+            },
+            "host0292": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0292"
+            },
+            "host0293": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0293"
+            },
+            "host0294": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0294"
+            },
+            "host0295": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0295"
+            },
+            "host0296": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0296"
+            },
+            "host0297": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0297"
+            },
+            "host0298": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0298"
+            },
+            "host0299": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0299"
+            },
+            "host0300": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0300"
+            },
+            "host0301": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0301"
+            },
+            "host0302": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0302"
+            },
+            "host0303": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0303"
+            },
+            "host0304": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0304"
+            },
+            "host0305": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0305"
+            },
+            "host0306": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0306"
+            },
+            "host0307": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0307"
+            },
+            "host0308": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0308"
+            },
+            "host0309": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0309"
+            },
+            "host0310": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0310"
+            },
+            "host0311": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0311"
+            },
+            "host0312": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0312"
+            },
+            "host0313": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0313"
+            },
+            "host0314": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0314"
+            },
+            "host0315": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0315"
+            },
+            "host0316": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0316"
+            },
+            "host0317": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0317"
+            },
+            "host0318": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0318"
+            },
+            "host0319": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0319"
+            },
+            "host0320": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0320"
+            },
+            "host0321": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0321"
+            },
+            "host0322": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0322"
+            },
+            "host0323": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0323"
+            },
+            "host0324": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0324"
+            },
+            "host0325": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0325"
+            },
+            "host0326": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0326"
+            },
+            "host0327": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0327"
+            },
+            "host0328": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0328"
+            },
+            "host0329": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0329"
+            },
+            "host0330": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0330"
+            },
+            "host0331": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0331"
+            },
+            "host0332": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0332"
+            },
+            "host0333": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0333"
+            },
+            "host0334": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0334"
+            },
+            "host0335": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0335"
+            },
+            "host0336": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0336"
+            },
+            "host0337": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0337"
+            },
+            "host0338": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0338"
+            },
+            "host0339": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0339"
+            },
+            "host0340": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0340"
+            },
+            "host0341": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0341"
+            },
+            "host0342": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0342"
+            },
+            "host0343": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0343"
+            },
+            "host0344": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0344"
+            },
+            "host0345": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0345"
+            },
+            "host0346": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0346"
+            },
+            "host0347": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0347"
+            },
+            "host0348": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0348"
+            },
+            "host0349": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0349"
+            },
+            "host0350": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0350"
+            },
+            "host0351": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0351"
+            },
+            "host0352": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0352"
+            },
+            "host0353": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0353"
+            },
+            "host0354": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0354"
+            },
+            "host0355": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0355"
+            },
+            "host0356": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0356"
+            },
+            "host0357": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0357"
+            },
+            "host0358": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0358"
+            },
+            "host0359": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0359"
+            },
+            "host0360": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0360"
+            },
+            "host0361": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0361"
+            },
+            "host0362": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0362"
+            },
+            "host0363": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0363"
+            },
+            "host0364": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0364"
+            },
+            "host0365": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0365"
+            },
+            "host0366": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0366"
+            },
+            "host0367": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0367"
+            },
+            "host0368": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0368"
+            },
+            "host0369": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0369"
+            },
+            "host0370": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0370"
+            },
+            "host0371": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0371"
+            },
+            "host0372": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0372"
+            },
+            "host0373": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0373"
+            },
+            "host0374": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0374"
+            },
+            "host0375": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0375"
+            },
+            "host0376": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0376"
+            },
+            "host0377": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0377"
+            },
+            "host0378": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0378"
+            },
+            "host0379": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0379"
+            },
+            "host0380": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0380"
+            },
+            "host0381": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0381"
+            },
+            "host0382": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0382"
+            },
+            "host0383": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0383"
+            },
+            "host0384": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0384"
+            },
+            "host0385": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0385"
+            },
+            "host0386": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0386"
+            },
+            "host0387": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0387"
+            },
+            "host0388": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0388"
+            },
+            "host0389": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0389"
+            },
+            "host0390": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0390"
+            },
+            "host0391": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0391"
+            },
+            "host0392": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0392"
+            },
+            "host0393": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0393"
+            },
+            "host0394": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0394"
+            },
+            "host0395": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0395"
+            },
+            "host0396": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0396"
+            },
+            "host0397": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0397"
+            },
+            "host0398": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0398"
+            },
+            "host0399": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0399"
+            },
+            "host0400": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0400"
+            },
+            "host0401": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0401"
+            },
+            "host0402": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0402"
+            },
+            "host0403": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0403"
+            },
+            "host0404": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0404"
+            },
+            "host0405": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0405"
+            },
+            "host0406": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0406"
+            },
+            "host0407": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0407"
+            },
+            "host0408": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0408"
+            },
+            "host0409": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0409"
+            },
+            "host0410": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0410"
+            },
+            "host0411": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0411"
+            },
+            "host0412": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0412"
+            },
+            "host0413": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0413"
+            },
+            "host0414": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0414"
+            },
+            "host0415": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0415"
+            },
+            "host0416": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0416"
+            },
+            "host0417": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0417"
+            },
+            "host0418": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0418"
+            },
+            "host0419": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0419"
+            },
+            "host0420": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0420"
+            },
+            "host0421": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0421"
+            },
+            "host0422": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0422"
+            },
+            "host0423": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0423"
+            },
+            "host0424": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0424"
+            },
+            "host0425": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0425"
+            },
+            "host0426": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0426"
+            },
+            "host0427": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0427"
+            },
+            "host0428": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0428"
+            },
+            "host0429": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0429"
+            },
+            "host0430": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0430"
+            },
+            "host0431": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0431"
+            },
+            "host0432": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0432"
+            },
+            "host0433": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0433"
+            },
+            "host0434": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0434"
+            },
+            "host0435": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0435"
+            },
+            "host0436": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0436"
+            },
+            "host0437": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0437"
+            },
+            "host0438": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0438"
+            },
+            "host0439": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0439"
+            },
+            "host0440": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0440"
+            },
+            "host0441": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0441"
+            },
+            "host0442": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0442"
+            },
+            "host0443": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0443"
+            },
+            "host0444": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0444"
+            },
+            "host0445": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0445"
+            },
+            "host0446": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0446"
+            },
+            "host0447": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0447"
+            },
+            "host0448": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0448"
+            },
+            "host0449": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0449"
+            },
+            "host0450": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0450"
+            },
+            "host0451": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0451"
+            },
+            "host0452": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0452"
+            },
+            "host0453": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0453"
+            },
+            "host0454": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0454"
+            },
+            "host0455": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0455"
+            },
+            "host0456": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0456"
+            },
+            "host0457": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0457"
+            },
+            "host0458": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0458"
+            },
+            "host0459": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0459"
+            },
+            "host0460": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0460"
+            },
+            "host0461": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0461"
+            },
+            "host0462": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0462"
+            },
+            "host0463": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0463"
+            },
+            "host0464": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0464"
+            },
+            "host0465": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0465"
+            },
+            "host0466": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0466"
+            },
+            "host0467": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0467"
+            },
+            "host0468": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0468"
+            },
+            "host0469": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0469"
+            },
+            "host0470": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0470"
+            },
+            "host0471": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0471"
+            },
+            "host0472": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0472"
+            },
+            "host0473": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0473"
+            },
+            "host0474": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0474"
+            },
+            "host0475": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0475"
+            },
+            "host0476": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0476"
+            },
+            "host0477": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0477"
+            },
+            "host0478": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0478"
+            },
+            "host0479": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0479"
+            },
+            "host0480": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0480"
+            },
+            "host0481": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0481"
+            },
+            "host0482": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0482"
+            },
+            "host0483": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0483"
+            },
+            "host0484": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0484"
+            },
+            "host0485": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0485"
+            },
+            "host0486": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0486"
+            },
+            "host0487": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0487"
+            },
+            "host0488": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0488"
+            },
+            "host0489": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0489"
+            },
+            "host0490": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0490"
+            },
+            "host0491": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0491"
+            },
+            "host0492": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0492"
+            },
+            "host0493": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0493"
+            },
+            "host0494": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0494"
+            },
+            "host0495": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0495"
+            },
+            "host0496": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0496"
+            },
+            "host0497": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0497"
+            },
+            "host0498": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0498"
+            },
+            "host0499": {
+                "groupvar_msg": "In group_odd",
+                "hostvar_msg": "I am host0499"
+            },
+            "host0500": {
+                "groupvar_msg": "In group_even",
+                "hostvar_msg": "I am host0500"
+            }
+        }
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "group_odd",
+            "group_even"
+        ]
+    },
+    "group_even": {
+        "hosts": []
+    },
+    "group_odd": {
+        "hosts": [
+            "host0001"
+        ]
+    }
+}
