@@ -1,6 +1,10 @@
 {
     "_meta": {
-        "hostvars": {        }
+        "hostvars": {
+            "host0001": {
+                "hostvar_msg": "I am host0001"
+            }
+        }
     },
     "all": {
         "children": [
